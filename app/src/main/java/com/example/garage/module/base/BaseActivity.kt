@@ -1,4 +1,4 @@
-package com.example.garage.module
+package com.example.garage.module.base
 
 import android.content.Intent
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.example.garage.module
+package com.example.garage.module.base
 
 import android.app.Dialog
 import android.os.Bundle

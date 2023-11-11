@@ -1,4 +1,4 @@
-package com.example.garage.module
+package com.example.garage.module.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
