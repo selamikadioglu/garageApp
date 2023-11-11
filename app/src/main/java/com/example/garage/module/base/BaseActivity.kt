@@ -12,7 +12,9 @@ open class BaseActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
 
     }
-
+    fun hideActionBar() {
+        supportActionBar?.hide()
+    }
     fun closeActivity() {
         finish()
     }
