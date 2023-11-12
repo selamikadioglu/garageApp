@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/carImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/item_corner_radius_8dp_without_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/category"
+        style="@style/Garage.bold.Black.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/carImage"
+        tools:text="Sport" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/brandModel"
+        style="@style/Garage.medium.Black.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/category"
+        app:layout_constraintTop_toBottomOf="@id/category"
+        tools:text="Hyundai i30 N 2021" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/salary"
+        style="@style/Garage.bold.Black.22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@id/brandModel"
+        app:layout_constraintTop_toBottomOf="@id/brandModel"
+        tools:text="20$" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/Garage.bold.Black.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toBottomOf="@id/salary"
+        app:layout_constraintStart_toEndOf="@id/salary"
+        app:layout_constraintTop_toTopOf="@id/salary"
+        tools:text="/günlük" />
+</androidx.constraintlayout.widget.ConstraintLayout>

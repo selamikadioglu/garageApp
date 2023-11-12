@@ -5,7 +5,6 @@ import com.example.garage.databinding.FragmentDiscoverBinding
 import com.example.garage.module.base.BaseBindableFragment
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class DiscoverFragment : BaseBindableFragment<FragmentDiscoverBinding, DiscoverViewModel>() {
 
     companion object {

@@ -5,7 +5,6 @@ import com.example.garage.databinding.FragmentLoginPageBinding
 import com.example.garage.module.base.BaseBindableFragment
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class LoginFragment : BaseBindableFragment<FragmentLoginPageBinding , LoginViewModel>() {
 
     companion object {

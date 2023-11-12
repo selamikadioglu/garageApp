@@ -5,7 +5,6 @@ import com.example.garage.databinding.FragmentProfileBinding
 import com.example.garage.module.base.BaseBindableFragment
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class ProfileFragment : BaseBindableFragment<FragmentProfileBinding, ProfileViewModel>() {
 
     companion object {
