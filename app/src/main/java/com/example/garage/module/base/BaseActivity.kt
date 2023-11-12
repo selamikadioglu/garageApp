@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.example.garage.R
 
 open class BaseActivity : AppCompatActivity(){
 
@@ -32,5 +33,16 @@ open class BaseActivity : AppCompatActivity(){
 
     protected fun fragmentTransaction(): FragmentTransaction {
         return fragmentManager().beginTransaction()
+    }
+     fun replaceFragment(
+        fragment: BaseFragment,
+        addToBackStack: Boolean = false,
+        tag: String? = null
+    ) {
+        val transaction = fragmentTransaction().replace(R.id.mainContainer, fragment)
+        if (addToBackStack) {
+            transaction.addToBackStack(tag)
+        }
+        transaction.commit()
     }
 }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Garage</string>
+    <string name="garage_text">Garage</string>
 </resources>

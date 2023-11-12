@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  8 12 14 16 18 20
+    100  = thin
+    200  = light
+    300  = light
+    400  = regular
+    500  = regular
+    600  = medium
+    700  = bold
+    800  = black
+    900  = black
+     -->
+    <style name="Garage" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Garage.bold">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="Garage.medium">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="Garage.regular">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Garage.light">
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:fontFamily">@font/roboto_thin</item>
+    </style>
+
+    <style name="Garage.thin">
+        <item name="fontFamily">@font/roboto_thin</item>
+        <item name="android:fontFamily">@font/roboto_thin</item>
+    </style>
+
+    <style name="Garage.black">
+        <item name="fontFamily">@font/roboto_black</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <!-- dark_grayish_blue-->
+    <style name="Garage.DarkGrayishBlue">
+        <item name="android:textColor">@color/dark_grayish_blue</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlueV2">
+        <item name="android:textColor">@color/dark_grayish_bluev2</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlueV2.8">
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlueV2.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlueV2.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlueV2.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlueV2.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlue.8">
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlue.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.DarkGrayishBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkGrayishBlue">
+        <item name="android:textColor">@color/dark_grayish_blue</item>
+    </style>
+
+    <style name="Garage.bold.DarkGrayishBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkGrayishBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkGrayishBlue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkGrayishBlue.18">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkGrayishBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end dark_grayish_blue -->
+
+    <!-- navy_blue-->
+    <style name="Garage.NavyBlue">
+        <item name="android:textColor">@color/navy_blue</item>
+    </style>
+
+    <style name="Garage.NavyBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.NavyBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.NavyBlue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.NavyBlue.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.NavyBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.NavyBlue">
+        <item name="android:textColor">@color/navy_blue</item>
+    </style>
+
+    <style name="Garage.bold.NavyBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.NavyBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.NavyBlue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.NavyBlue.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.NavyBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.regular.NavyBlue">
+        <item name="android:textColor">@color/navy_blue</item>
+    </style>
+
+    <style name="Garage.regular.NavyBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.NavyBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.NavyBlue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.NavyBlue.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.NavyBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end navy blue -->
+
+    <!-- bright_red_66-->
+    <style name="Garage.BrightRed66">
+        <item name="android:textColor">@color/bright_red_66</item>
+    </style>
+
+    <style name="Garage.BrightRed66.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.BrightRed66.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.BrightRed66.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.BrightRed66.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.BrightRed66.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.BrightRed66">
+        <item name="android:textColor">@color/bright_red_66</item>
+    </style>
+
+    <style name="Garage.bold.BrightRed66.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.BrightRed66.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.BrightRed66.16">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.BrightRed66.18">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.BrightRed66.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end bright_red_66 -->
+
+    <!-- lime green-->
+    <style name="Garage.LimeGreen">
+        <item name="android:textColor">@color/lime_green</item>
+    </style>
+
+    <style name="Garage.LimeGreen.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.LimeGreen.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.LimeGreen.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.LimeGreen.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.LimeGreen.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen">
+        <item name="android:textColor">@color/lime_green</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.LimeGreen.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Garage.regular.LimeGreen">
+        <item name="android:textColor">@color/lime_green</item>
+    </style>
+
+    <style name="Garage.regular.LimeGreen.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.LimeGreen.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.LimeGreen.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.LimeGreen.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.LimeGreen.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end lime_green -->
+
+    <!-- black-->
+    <style name="Garage.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Garage.Black.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.Black.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.Black.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.Black.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.Black.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.Black.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Garage.medium.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Garage.medium.Black.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.medium.Black.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.medium.Black.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.medium.Black.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.medium.Black.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.medium.Black.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Garage.bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Garage.bold.Black.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.Black.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.Black.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.Black.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.Black.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.Black.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="Garage.bold.Black.28">
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="Garage.regular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Garage.regular.Black.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.Black.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.Black.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.Black.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.Black.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.regular.Black.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <!-- end black -->
+
+    <!-- white-->
+    <style name="Garage.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Garage.White.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.White.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.White.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.White.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.White.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Garage.medium.White.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.medium.White.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Garage.medium.White.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.medium.White.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.medium.White.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.medium.White.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Garage.regular.White.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.White.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Garage.regular.White.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.White.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.White.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.White.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Garage.bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Garage.bold.White.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.White.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Garage.bold.White.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.White.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.White.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.White.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- end white -->
+
+    <!-- black50-->
+    <style name="Garage.Black50">
+        <item name="android:textColor">@color/black_50</item>
+    </style>
+
+    <style name="Garage.Black50.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.Black50.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.Black50.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.Black50.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.Black50.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.regular.Black50">
+        <item name="android:textColor">@color/black_50</item>
+    </style>
+
+    <style name="Garage.regular.Black50.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.Black50.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.Black50.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.Black50.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.Black50.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.Black50">
+        <item name="android:textColor">@color/black_50</item>
+    </style>
+
+    <style name="Garage.bold.Black50.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.Black50.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.Black50.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.Black50.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.Black50.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end black50 -->
+
+    <!-- dark_bright_red-->
+    <style name="Garage.DarkBrightRed">
+        <item name="android:textColor">@color/dark_bright_red</item>
+    </style>
+
+    <style name="Garage.DarkBrightRed.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.DarkBrightRed.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.DarkBrightRed.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.DarkBrightRed.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.DarkBrightRed.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.regular.DarkBrightRed">
+        <item name="android:textColor">@color/dark_bright_red</item>
+    </style>
+
+    <style name="Garage.regular.DarkBrightRed.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.DarkBrightRed.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.DarkBrightRed.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.DarkBrightRed.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.DarkBrightRed.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkBrightRed">
+        <item name="android:textColor">@color/dark_bright_red</item>
+    </style>
+
+    <style name="Garage.bold.DarkBrightRed.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkBrightRed.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkBrightRed.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkBrightRed.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.DarkBrightRed.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end dark_bright_red -->
+
+    <!-- black-->
+    <style name="Garage.Black66">
+        <item name="android:textColor">@color/black_66</item>
+    </style>
+
+    <style name="Garage.Black66.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.Black66.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.Black66.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.Black66.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.Black66.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.Black66">
+        <item name="android:textColor">@color/black_66</item>
+    </style>
+
+    <style name="Garage.bold.Black66.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.Black66.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.Black66.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.bold.Black66.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.bold.Black66.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.regular.Black66">
+        <item name="android:textColor">@color/black_66</item>
+    </style>
+
+    <style name="Garage.regular.Black66.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.regular.Black66.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.regular.Black66.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.regular.Black66.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.regular.Black66.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end black -->
+
+    <!-- GrayishBlue-->
+    <style name="Garage.GrayishBlue">
+        <item name="android:textColor">@color/grayish_blue</item>
+    </style>
+
+    <style name="Garage.GrayishBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.GrayishBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.GrayishBlue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Garage.GrayishBlue.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Garage.GrayishBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.GrayishBlue">
+        <item name="android:textColor">@color/grayish_blue</item>
+    </style>
+
+    <style name="Garage.bold.GrayishBlue.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Garage.bold.GrayishBlue.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Garage.bold.GrayishBlue.16">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.GrayishBlue.18">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Garage.bold.GrayishBlue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- end GrayishBlue -->
+</resources>
