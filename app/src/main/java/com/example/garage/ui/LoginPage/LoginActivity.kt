@@ -1,5 +1,7 @@
 package com.example.garage.ui.LoginPage
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.garage.R
@@ -16,5 +18,15 @@ class LoginActivity : BaseActivity() {
                 .replace(R.id.container, LoginFragment.newInstance())
                 .commitNow()
         }
+        hideActionBar()
+    }
+
+    companion object {
+        fun newIntent(
+            context: Context,
+        ): Intent {
+            return Intent(context, LoginActivity::class.java)
+        }
+
     }
 }

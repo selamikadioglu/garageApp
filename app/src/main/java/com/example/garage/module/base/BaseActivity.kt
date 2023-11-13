@@ -45,4 +45,8 @@ open class BaseActivity : AppCompatActivity(){
         }
         transaction.commit()
     }
+    companion object {
+        const val NONE = -1
+        val TAG = BaseActivity::class.java.name
+    }
 }

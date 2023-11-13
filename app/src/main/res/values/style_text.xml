@@ -412,6 +412,9 @@
     <style name="Garage.bold.Black.22">
         <item name="android:textSize">22sp</item>
     </style>
+    <style name="Garage.bold.Black.32">
+        <item name="android:textSize">32sp</item>
+    </style>
     <style name="Garage.bold.Black.28">
         <item name="android:textSize">28sp</item>
     </style>
